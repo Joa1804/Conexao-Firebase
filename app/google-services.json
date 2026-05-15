@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "299025456062",
+    "project_id": "ligacaofirebase-4fb9c",
+    "storage_bucket": "ligacaofirebase-4fb9c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299025456062:android:0803ff1d07b9ba7107f7ef",
+        "android_client_info": {
+          "package_name": "com.example.conexaofirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-rEekDfN9CsjuLnmFdZqYsHqH_bqztjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299025456062:android:0efe79da8f8fdd4d07f7ef",
+        "android_client_info": {
+          "package_name": "com.example.liguacaofirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-rEekDfN9CsjuLnmFdZqYsHqH_bqztjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
