@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         usuario.createUserWithEmailAndPassword(
-                "joao987emanoel76@gmail.com", "2005")
+                "joao987emanoel76@gmail.com", "Joao@2005")
                 .addOnCompleteListener(MainActivity.this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
@@ -36,8 +36,17 @@ public class MainActivity extends AppCompatActivity {
                         } else {
                             Log.i("CreateUser", "Error ao cadastrar usuario! ");
                         }
+
                     }
                 });
+
+        if (usuario.getCurrentUser() != null ) {
+            Log.i("CurrentUser", "Login Usando!" );
+        } else {
+            Log.i("CurrentUser", "Usuario nao Ligando! ");
+        }
+
+        usuario.signOut();
 
 
 
